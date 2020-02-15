@@ -9,7 +9,7 @@ There are Firefox and Microsoft Edge(Chrome) versions.
 
 ## Download
   * [Firefox](https://addons.mozilla.org/firefox/addon/searchfrompopuporcontextmenu/)
-  * [Microsoft Edge(Chrome) (Scheduled release)](https://microsoftedge.microsoft.com/addons/search/Search%20from%20Popup%20or%20ContextMenu)
+  * [Microsoft Edge(Chrome)](https://microsoftedge.microsoft.com/addons/detail/hlikagndoiibjkblhopoajeonpkfgiko)
 
 ## Privacy policy
   * Search keywords are **not saved**.
@@ -28,11 +28,11 @@ There are Firefox and Microsoft Edge(Chrome) versions.
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support Bookmarklet.  
     (It can also be executed automatically when the popup is displayed) / (You can also import bookmarklets from your Bookmarks)
-  * added Search box to Popup. (Support for Google suggest)
+  * added Search box to Popup. (Support for Google or DuckDuckGo suggest)
   * added Hotkey search.
   * added a function to easily add a search engine from the text box context menu.
   * added search URL `{linkurl}`. `{linkurl}` is supports "Advanced usage".  
-    (use `{linkurl}` or Hold Ctrl(Firefox Only) and select Context menu)
+    (Used when you want to search by link URI. For Firefox, you can also do this by holding down the Ctrl key and selecting the context menu)
   * If no text is selected, the Clipboard Text is searched.
   * Context menu display options.
   * You can also search by link text or image URL.
@@ -45,6 +45,7 @@ There are Firefox and Microsoft Edge(Chrome) versions.
   * added Hide Popup with ESC key etc.
   * Allow "open-popup" Command to display popup even if no string is selected.
   * support charset (UTF-8, RAW(GET method only), Shift_JIS(SJIS), EUC-JP, ISO-2022-JP(JIS), windows-1251, windows-1252(ISO-8859-1), Big5, GB18030).
+  * When the OS is set to dark mode, the option page is displayed in dark mode.
 * Import/Export Compatibility with the Original Extension Ver.3.33.0:
   * Import can also import file from the Original Extension.
   * File exported by SPC is not compatible with the Original Extension Search engines setting.
@@ -70,6 +71,10 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License  
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Contact
+If you have any requests or issues, please E-mail(listed on the options page) or [GitHub Issues](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/issues) in Japanese or English.  
+It is easy to understand if there is a screenshot etc.
 
 ## Acknowledgment
 I would like to take this opportunity to express my appreciation to developers.
