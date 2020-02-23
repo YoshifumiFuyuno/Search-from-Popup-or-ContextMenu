@@ -12,7 +12,7 @@ There are Firefox and Microsoft Edge(Chrome) versions.
   * [Microsoft Edge(Chrome)](https://microsoftedge.microsoft.com/addons/detail/hlikagndoiibjkblhopoajeonpkfgiko)
 
 ## Privacy policy
-  * Search keywords are **not saved**.
+  * Search query are **not saved**.
   * You can use suggest(Google or DuckDuckGo) in the popup search box, but you can disable it in the settings.  
     "Popup/icons behaviour" -> "Enable search box suggest"
   * If you set your favicon to data: scheme and disable suggest, this extension will not access the network at all.  
@@ -37,7 +37,7 @@ There are Firefox and Microsoft Edge(Chrome) versions.
   * Context menu display options.
   * You can also search by link text or image URL.
   * added Popup Opening behaviour "click" / "drag"
-  * added "Popup/icons behaviour" -> "Right mouse button click" / "Left mouse button Long-click"
+  * added "Popup/icons behaviour" -> "Right mouse button click" / "Right mouse button Long-click" / "Left mouse button Long-click"
   * added "Context menu" -> "Middle mouse button click" / "Right mouse button click"
   * added "Open in new incognito (private) window" / "Open in new popup window" / "Open in sidebar (tab-specific)" / "Open in sidebar (window-specific)" / "Open in sidebar (global)"  
     (sidebar UserAgent can be changed) / (The Popup window can be closed automatically.(Off/LostFocus/Mouseleave)).
@@ -55,6 +55,13 @@ There are Firefox and Microsoft Edge(Chrome) versions.
   * added optional_permissions: bookmarks(Import bookmarklet), webRequest(Sidebar user agent), webRequestBlocking(Sidebar user agent).
   * From normal permissions to optional_permissions: clipboardWrite(copyToClipboard As Html/Text).
 
+## ChangeLog
+https://addons.mozilla.org/firefox/addon/searchfrompopuporcontextmenu/versions/
+
+## Contact
+If you have any requests or issues, please E-mail(listed on the options page) or [GitHub Issues](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/issues) in Japanese or your first language.  
+It is easy to understand if there is a screenshot etc.
+
 ## License
 ### GNU GPLv3
 Copyright (C) 2019  Yoshifumi Fuyuno
@@ -71,10 +78,6 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License  
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
-## Contact
-If you have any requests or issues, please E-mail(listed on the options page) or [GitHub Issues](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/issues) in Japanese or English.  
-It is easy to understand if there is a screenshot etc.
 
 ## Acknowledgment
 I would like to take this opportunity to express my appreciation to developers.
