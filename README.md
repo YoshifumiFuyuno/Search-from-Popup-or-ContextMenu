@@ -1,11 +1,16 @@
 # Search from Popup or ContextMenu (SPC)
 
-This is a WebExtension for browsers.
-
+This is a WebExtension for browsers.  
 This Extension is a *fork* of "[Swift Selection Search (SSS)](#acknowledgment)".  
+
 When you select text or image on a webpage, you can quickly search from the popup or contextmenu.
 
-There are Firefox and Microsoft Edge(Chrome) versions.
+**By default, popup appears when you drag an image, selected text, or link, but you can choose from the following behaviors.**  
+  "Popup/icons behaviour" -> "Opening behaviour":  
+  (Off / Auto / Hold Alt / Keyboard-only / Middle mouse button / Click / Drag)
+
+There are Firefox and Microsoft Edge(Chrome) versions.  
+Microsoft Edge version also works with Chromium-based browsers like Chrome. But there is no support.
 
 ## Download
   * [Firefox](https://addons.mozilla.org/firefox/addon/searchfrompopuporcontextmenu/)
@@ -21,6 +26,7 @@ There are Firefox and Microsoft Edge(Chrome) versions.
 ## Different
 * Fork Changes (Based on SSS Version 3.33.0):
   * Now works with Microsoft Edge(Chrome).
+  * The site's [Content Security Policy(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) does not change. (Original Extension(SSS) rewrites CSP to "unsafe-inline" after Ver.3.40.0)
   * You can search on multiple search engines at once.
   * support POST Method search engine.
   * support search engine folder management.
@@ -39,8 +45,9 @@ There are Firefox and Microsoft Edge(Chrome) versions.
   * added Popup Opening behaviour "click" / "drag"
   * added "Popup/icons behaviour" -> "Right mouse button click" / "Right mouse button Long-click" / "Left mouse button Long-click"
   * added "Context menu" -> "Middle mouse button click" / "Right mouse button click"
-  * added "Open in new incognito (private) window" / "Open in new popup window" / "Open in sidebar (tab-specific)" / "Open in sidebar (window-specific)" / "Open in sidebar (global)"  
+  * added Open in Window ("reuse new window" / "reuse new background window" / "new incognito (private) window" / "reuse new incognito(private) window" / "new background incognito(private) window" / "reuse new background incognito(private) window" / "new popup window" / "reuse new popup window" / "new background popup window" / "reuse new background popup window" / "sidebar (tab-specific)" / "sidebar (window-specific)" / "sidebar (global)")  
     (sidebar UserAgent can be changed) / (The Popup window can be closed automatically.(Off/LostFocus/Mouseleave)).
+  * added Open in Tab ("reuse active tab" / "reuse new tab" / "reuse new background tab" / "reuse new tab (next to current tab)" / "reuse new background tab (next to current tab)")
   * added Ability to show last used engine first in popup.
   * added Hide Popup with ESC key etc.
   * Allow "open-popup" Command to display popup even if no string is selected.
