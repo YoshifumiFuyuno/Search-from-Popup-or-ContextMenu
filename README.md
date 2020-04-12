@@ -10,7 +10,7 @@ When you select text or image on a webpage, you can quickly search from the popu
   (Off / Auto / Hold Alt / Keyboard-only / Middle mouse button / Click / Drag)
 
 There are Firefox and Microsoft Edge(Chrome) versions.  
-Microsoft Edge version also works with Chromium-based browsers like Chrome. But there is no support.
+Microsoft Edge version also works with Chromium-based browsers such as Chrome, but there's no technical support.
 
 ## Download
   * [Firefox](https://addons.mozilla.org/firefox/addon/searchfrompopuporcontextmenu/)
@@ -18,7 +18,7 @@ Microsoft Edge version also works with Chromium-based browsers like Chrome. But 
 
 ## Privacy policy
   * Search query are **not saved**.
-  * You can use suggest(Google or DuckDuckGo) in the popup search box, but you can disable it in the settings.  
+  * You can use suggest(Google or DuckDuckGo or Qwant) in the popup search box, but you can disable it in the settings.  
     "Popup/icons behaviour" -> "Enable search box suggest"
   * If you set your favicon to data: scheme and disable suggest, this extension will not access the network at all.  
     Excludes processing performed by the browser (update and synchronization).
@@ -26,7 +26,8 @@ Microsoft Edge version also works with Chromium-based browsers like Chrome. But 
 ## Different
 * Fork Changes (Based on SSS Version 3.33.0):
   * Now works with Microsoft Edge(Chrome).
-  * The site's [Content Security Policy(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) does not change. (Original Extension(SSS) rewrites CSP to "unsafe-inline" after Ver.3.40.0)
+  * The site's [Content Security Policy(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) does not change.  
+    (Original Extension(SSS) rewrites CSP to "unsafe-inline" after Ver.3.40.0)
   * You can search on multiple search engines at once.
   * support POST Method search engine.
   * support search engine folder management.
@@ -34,7 +35,7 @@ Microsoft Edge version also works with Chromium-based browsers like Chrome. But 
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support Bookmarklet.  
     (It can also be executed automatically when the popup is displayed) / (You can also import bookmarklets from your Bookmarks)
-  * added Search box to Popup. (Support for Google or DuckDuckGo suggest)
+  * added Search box to Popup. (Support for Google or DuckDuckGo or Qwant suggest)
   * added Hotkey search.
   * added a function to easily add a search engine from the text box context menu.
   * added search URL `{linkurl}`. `{linkurl}` is supports "Advanced usage".  
