@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+***If you have multiple reports, please create an issue for each.***
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
