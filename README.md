@@ -18,7 +18,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
 
 ## Privacy policy
   * Search query are **not saved**.
-  * You can use suggest(Google or DuckDuckGo or Qwant or Bing or Yandex or 百度(Baidu)) in the popup search box, but you can disable it in the settings.  
+  * You can use suggest(Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu)) in the popup search box, but you can disable it in the settings.  
     "Popup/icons behaviour" -> "Enable search box suggest"
   * If you set your favicon to data: scheme and disable suggest, this extension will not access the network at all.  
     Excludes processing performed by the browser (update and synchronization).
@@ -35,7 +35,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support Bookmarklet.  
     (It can also be executed automatically when the popup is displayed) / (You can also import bookmarklets from your Bookmarks)
-  * added Search box to Popup. (Support for Google or DuckDuckGo or Qwant or Bing or Yandex or 百度(Baidu) suggest)
+  * added Search box to Popup. (Support for Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu) suggest)
   * added Hotkey search.
   * added a function to easily add a search engine from the text box context menu.
   * added search URL `{linkurl}`. `{linkurl}` is supports "Advanced usage".  
@@ -67,7 +67,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
 https://addons.mozilla.org/firefox/addon/searchfrompopuporcontextmenu/versions/
 
 ## Contact
-If you have any requests or issues, please E-mail(listed on the options page) or [GitHub Issues](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/issues) in Japanese or your first language.  
+If you have any requests or issues, please [GitHub Issues](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/issues) in Japanese or your first language.  
 It is easy to understand if there is a screenshot etc.
 
 ## License
