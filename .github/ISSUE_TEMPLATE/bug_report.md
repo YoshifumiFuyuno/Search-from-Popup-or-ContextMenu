@@ -1,13 +1,11 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: If you have multiple reports, please create an issue for each
 labels: ''
 assignees: ''
 
 ---
-
-***If you have multiple reports, please create an issue for each.***
 
 **Describe the bug**
 A clear and concise description of what the bug is.

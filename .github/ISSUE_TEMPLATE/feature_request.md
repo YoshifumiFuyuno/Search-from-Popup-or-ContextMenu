@@ -1,13 +1,11 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: If you have multiple reports, please create an issue for each
 labels: ''
 assignees: ''
 
 ---
-
-***If you have multiple reports, please create an issue for each.***
 
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
