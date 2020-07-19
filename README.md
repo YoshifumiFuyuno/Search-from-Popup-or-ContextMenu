@@ -33,12 +33,12 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
   * support search engine folder management.
   * added Popup Style ("Icon only" / "Icon and Name" / "Name only").  
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
-  * support Bookmarklet.  
+  * support [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet). You can use [Bookmarklet APIs](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Bookmarklet-APIs).  
     (It can also be executed automatically when the popup is displayed) / (You can also import bookmarklets from your Bookmarks)
   * added Search box to Popup. (Support for Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu) suggest)
   * added Hotkey search.
   * added a function to easily add a search engine from the text box context menu.
-  * added search URL `{linkurl}`. `{linkurl}` is supports "Advanced usage".  
+  * added search URL `{linkurl}`. `{linkurl}` is supports "[Advanced usage](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Instructions#advanced-usage)".  
     (Used when you want to search by link URI. For Firefox, you can also do this by holding down the Ctrl key and selecting the context menu)
   * If no text is selected, the Clipboard Text is searched.
   * Context menu display options.
