@@ -18,7 +18,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
 
 ## Privacy policy
   * Search query are **not saved**.
-  * You can use suggest(Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu)) in the popup search box, but you can disable it in the settings.  
+  * You can use suggest(Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu)) in the popup search box or omnibox search, but you can disable it in the settings.  
     "Popup/icons behaviour" -> "Enable search box suggest"
   * If you set your favicon to data: scheme and disable suggest, this extension will not access the network at all.  
     Excludes processing performed by the browser (update and synchronization).
@@ -35,7 +35,9 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet). You can use [Bookmarklet APIs](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Bookmarklet-APIs).  
     (It can also be executed automatically when the popup is displayed) / (You can also import bookmarklets from your Bookmarks)
-  * added Search box to Popup. (Support for Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu) suggest)
+  * added Search box to Popup.
+  * added [omnibox search](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Instructions#how-to-use-omnibox-search).
+  * support suggestions from Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu) in the popup search box or omnibox search.
   * added Hotkey search.
   * added a function to easily add a search engine from the text box context menu.
   * added search URL `{linkurl}`. `{linkurl}` is supports "[Advanced usage](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Instructions#advanced-usage)".  
@@ -51,6 +53,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
   * added Open in Tab ("reuse active tab" / "reuse new tab" / "reuse new background tab" / "reuse new tab (next to current tab)" / "reuse new background tab (next to current tab)")
   * added Ability to show last used engine first in popup.
   * added Hide Popup with ESC key etc.
+  * added browserAction.
   * Allow "open-popup" Command to display popup even if no string is selected.
   * support charset (UTF-8, RAW(GET method only), Shift_JIS(SJIS), EUC-JP, ISO-2022-JP(JIS), windows-1251, windows-1252(ISO-8859-1), Big5, GB18030).
   * When the OS is set to dark mode, the option page is displayed in dark mode.
