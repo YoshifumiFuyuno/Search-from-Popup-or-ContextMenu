@@ -9,12 +9,13 @@ When you select text or image on a webpage, you can quickly search from the popu
   "Popup/icons behaviour" -> "Opening behaviour":  
   (Off / Auto / Hold Alt / Keyboard-only / Middle mouse button / Click / Drag)
 
-There are Firefox and Microsoft Edge(Chrome) versions.  
-Microsoft Edge version also works with Chromium-based browsers such as Chrome, but there's no technical support.
+There are Firefox and Microsoft Edge versions.  
+Microsoft Edge version also works with Chromium-based browsers such as Google Chrome, but there's no technical support.
 
-## Download
+## Install
   * [Firefox](https://addons.mozilla.org/firefox/addon/searchfrompopuporcontextmenu/)
-  * [Microsoft Edge(Chrome)](https://microsoftedge.microsoft.com/addons/detail/hlikagndoiibjkblhopoajeonpkfgiko)
+  * [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/hlikagndoiibjkblhopoajeonpkfgiko)
+  * [Other Chromium-based browsers such as Google Chrome](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Instructions#how-to-install-on-chromium-based-browsers-such-as-google-chrome)
 
 ## Privacy policy
   * Search query are **not saved**.
@@ -25,7 +26,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Chrome, b
 
 ## Different
 * Fork Changes (Based on SSS Version 3.33.0):
-  * Now works with Microsoft Edge(Chrome).
+  * Now works with Chromium-based browsers such as Microsoft Edge and Google Chrome.
   * The site's [Content Security Policy(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) does not change.  
     (Original Extension(SSS) rewrites CSP to "unsafe-inline" after Ver.3.40.0)
   * You can search on multiple search engines at once.
