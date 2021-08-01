@@ -21,8 +21,11 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
   * Search query are **not saved**.
   * You can use suggest(Google or DuckDuckGo or Qwant or Bing or Яндекс(Yandex) or 百度(Baidu)) in the popup search box or omnibox search, but you can disable it in the settings.  
     "Popup/icons behaviour" -> "Enable search box suggest"
-  * If you set your favicon to data: scheme and disable suggest, this extension will not access the network at all.  
-    Excludes processing performed by the browser (update and synchronization).
+  * If you set your favicon to data: scheme and disable suggest, this extension will not access the network at all.
+    * exception
+      * If you add a search engine from the context menu or options page, cache the favicon as data: scheme.
+      * When adding a search engine from the context menu, if the normal addition is not possible, get OpenSearch if the site supports it.
+      * Processes performed by the browser (update and synchronization).
 
 ## Different
 * Fork Changes (Based on SSS Version 3.33.0):
@@ -32,6 +35,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
   * You can search on multiple search engines at once.
   * support POST Method search engine.
   * support search engine folder management.
+  * added highlighting and auto-scrolling features.
   * added Popup Style ("Icon only" / "Icon and Name" / "Name only").  
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet). You can use [Bookmarklet APIs](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Bookmarklet-APIs).  
