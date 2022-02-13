@@ -1,0 +1,68 @@
+name: Bug report
+description: Create a report to help us improve
+#title: ""
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ***If you have multiple reports, please create an issue for each.***
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: |
+        A clear and concise description of what the bug is.
+        If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior
+      value: |
+        1. Start Browser with clean profile.
+        2. Install SPC.
+        3. 
+        4. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: |
+        A clear and concise description of what you expected to happen.
+        If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: |
+        A clear and concise description of what you expected to happen.
+        If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Your Environment
+      description: please complete the following information
+      value: |
+        - OS: [e.g. Windows 11, Ubuntu 22.04]
+        - Browser [e.g. Firefox 96.0.3, Edge 98.0.1108.43, Chrome 98.0.4758.82]
+        - Extension Version [e.g. 6.1]
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: addtional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false

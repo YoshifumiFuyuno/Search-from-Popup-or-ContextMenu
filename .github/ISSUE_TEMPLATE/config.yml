@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a Question
+    url: https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/discussions/new?category=q-a&body=%3C!--**If%20you%20have%20multiple%20questions%2C%20please%20post%20them%20separately.**--%3E%0A%0A%0A**Environment%20(please%20complete%20the%20following%20information)%3A**%0AOS%3A%20%5Be.g.%20Windows%2011%2C%20Ubuntu%2022.04%5D%0ABrowser%20%5Be.g.%20Firefox%2096.0.3%2C%20Edge%2098.0.1108.43%2C%20Chrome%2098.0.4758.82%5D%0AExtension%20Version%20%5Be.g.%206.1%5D%0A
+    about: Please ask and answer questions here.
