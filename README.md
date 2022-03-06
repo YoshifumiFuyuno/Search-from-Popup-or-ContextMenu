@@ -36,6 +36,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
   * support POST Method search engine.
   * support search engine folder management.
   * added highlighting and auto-scrolling features.
+  * added the ability to highlight even if not via this add-on.
   * added Popup Style ("Icon only" / "Icon and Name" / "Name only").  
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet). You can use [Bookmarklet APIs](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Bookmarklet-APIs).  
@@ -79,21 +80,7 @@ If you have any requests or issues, please [GitHub Issues](https://github.com/Yo
 It is easy to understand if there is a screenshot etc.
 
 ## License
-### GNU GPLv3
 Copyright (C) 2019  Yoshifumi Fuyuno
-
-This program is free software: you can redistribute it and/or modify  
-it under the terms of the GNU General Public License as published by  
-the Free Software Foundation, either version 3 of the License, or  
-(at your option) any later version.  
-
-This program is distributed in the hope that it will be useful,  
-but WITHOUT ANY WARRANTY; without even the implied warranty of  
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the  
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License  
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Acknowledgment
 I would like to take this opportunity to express my appreciation to developers.
@@ -101,4 +88,4 @@ I would like to take this opportunity to express my appreciation to developers.
 Original Extension:  
 Swift Selection Search by Daniel Lobo  
 https://addons.mozilla.org/firefox/addon/swift-selection-search/  
-Original Extension License: MIT License
+Original Extension License: [MIT License](https://github.com/CanisLupus/swift-selection-search/raw/d41fc/LICENSE)
