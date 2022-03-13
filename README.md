@@ -2,6 +2,7 @@
 
 This is a WebExtension for browsers.  
 This Extension is a *fork* of "[Swift Selection Search (SSS)](#acknowledgment)".  
+***Please note that this is not a successor to SSS.*** Do not equate.
 
 When you select text or image on a webpage, you can quickly search from the popup or contextmenu.
 
