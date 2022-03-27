@@ -1,8 +1,7 @@
 # Search from Popup or ContextMenu (SPC)
 
-This is a WebExtension for browsers.  
-This Extension is a *fork* of "[Swift Selection Search (SSS)](#acknowledgment)".  
-***Please note that this is not a successor to SSS.*** Do not equate.
+This WebExtension is a *fork* of "[Swift Selection Search (SSS)](#acknowledgment)".  
+This is a customized version of SSS for *my own use*.
 
 When you select text or image on a webpage, you can quickly search from the popup or contextmenu.
 
@@ -48,7 +47,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
   * added Hotkey search.
   * added a function to easily add a search engine from the text box context menu.
   * added search URL `{linkurl}`. `{linkurl}` is supports "[Advanced usage](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Instructions#advanced-usage)".  
-    (Used when you want to search by link URI. For Firefox, you can also do this by holding down the Ctrl key and selecting the context menu)
+    (Used when you want to search by link URI. You can do the same by holding down the Ctrl key when searching from the context menu)
   * If no text is selected, the Clipboard Text is searched.
   * Context menu display options.
   * You can also search by link text or image URL.
