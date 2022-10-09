@@ -37,6 +37,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
   * support search engine folder management.
   * added highlighting and auto-scrolling features.
   * added the ability to highlight even if not via this add-on.
+  * added function to [launch external applications](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Launching-external-apps) (other browsers, yt-dlp, etc.).
   * added Popup Style ("Icon only" / "Icon and Name" / "Name only").  
     (At "Icon only", the display mode can be temporarily switched by double-clicking)
   * support [Bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet). You can use [Bookmarklet APIs](https://github.com/YoshifumiFuyuno/Search-from-Popup-or-ContextMenu/wiki/Bookmarklet-APIs).  
@@ -69,7 +70,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
 * Permissions different from Original Extension Ver.3.33.0:
   * removed permissions: downloads, webNavigation.
   * added permissions: clipboardRead(Clipboard text search), unlimitedStorage(data: scheme icons).
-  * added optional_permissions: bookmarks(Import bookmarklet), webRequest(Sidebar user agent), webRequestBlocking(Sidebar user agent).
+  * added optional_permissions: bookmarks(Import bookmarklet), webRequest(Sidebar user agent), webRequestBlocking(Sidebar user agent), nativeMessaging(Launch external applications).
   * From normal permissions to optional_permissions: clipboardWrite(copyToClipboard As Html/Text).
 
 ## ChangeLog
