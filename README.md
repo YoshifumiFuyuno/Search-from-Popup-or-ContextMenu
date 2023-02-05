@@ -57,7 +57,7 @@ Microsoft Edge version also works with Chromium-based browsers such as Google Ch
   * added "Context menu" -> "Middle mouse button click" / "Right mouse button click"
   * added Open in Window ("reuse new window" / "reuse new background window" / "new incognito (private) window" / "reuse new incognito(private) window" / "new background incognito(private) window" / "reuse new background incognito(private) window" / "new popup window" / "reuse new popup window" / "new background popup window" / "reuse new background popup window" / "sidebar (tab-specific)" / "sidebar (window-specific)" / "sidebar (global)")  
     (sidebar UserAgent can be changed) / (The Popup window can be closed automatically.(Off/LostFocus/Mouseleave)).
-  * added Open in Tab ("reuse active tab" / "reuse new tab" / "reuse new background tab" / "reuse new tab (next to current tab)" / "reuse new background tab (next to current tab)")
+  * added Open in Tab ("reuse active tab" / "reuse new tab" / "reuse new background tab" / "reuse new tab (next to current tab)" / "reuse new background tab (next to current tab)" / "LazyLoad new background tab" / "LazyLoad new background tab (next to current tab)")
   * added Ability to show last used engine first in popup.
   * added Hide Popup with ESC key etc.
   * added browserAction.
@@ -81,7 +81,7 @@ If you have any requests or issues, please [GitHub Issues](https://github.com/Yo
 It is easy to understand if there is a screenshot etc.
 
 ## License
-Copyright (C) 2019  Yoshifumi Fuyuno
+Copyright © 2019 Yoshifumi Fuyuno
 
 ## Acknowledgment
 I would like to take this opportunity to express my appreciation to developers.
